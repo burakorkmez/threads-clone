@@ -23,7 +23,7 @@ const MessageContainer = () => {
 			if (selectedConversation._id === message.conversationId) {
 				setMessages((prev) => [...prev, message]);
 			}
-
+			console.log(message, selectedConversation._id);
 			setConversations((prev) => {
 				const updatedConversations = prev.map((conversation) => {
 					if (conversation._id === message.conversationId) {
