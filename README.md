@@ -1,7 +1,45 @@
-# Threads Clone Tutorial
+# 12+ Hour MERN Masterclass: Build and Deploy a Threads App with Real-Time Chat Functionality
 
-### Built With React, MongoDB, ExpressJS, NodeJS, JWT, Cloudinary
+![Demo App](https://i.ibb.co/BnGdh10/Group-62.png)
 
-# [Tutorial](https://youtu.be/tvKhOAlAjTY?si=cb5Et8_xIi3ZliiE)
+[Video Tutorial on Youtube](https://youtu.be/G4V4xO9wyD8)
 
-![Screenshot of App](https://i.ibb.co/Gs9fWwh/Group-8.png)
+Feature List:
+
+-   🌟 Tech stack: MERN + Socket.io + Chakra UI
+-   🎃 Authentication & Authorization with JWT
+-   📝 Create Post
+-   🗑️ Delete Post
+-   ❤️ Like/Unlike Post
+-   💬 Comment to a Post
+-   👥 Follow/Unfollow Users
+-   ❄️ Freeze Your Account
+-   🌓 Dark/Light Mode
+-   📱 Completely Responsive
+-   💬 Chat App With Image Support
+-   👀 Seen/Unseen Status for Messages
+-   🔊 Notification sounds
+-   ⭐ Deployment for FREE
+
+### Setup .env file
+
+```js
+PORT=...
+MONGO_URI=...
+JWT_SECRET=...
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+```
+
+### Build the app
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm start
+```
